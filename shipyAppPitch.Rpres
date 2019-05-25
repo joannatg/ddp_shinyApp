@@ -1,0 +1,65 @@
+<style type="text/css">
+
+.reveal pre code {
+  display: block; padding: 0.3em;
+  font-size: 1em;
+  
+</style>
+
+Iris flower classification
+========================================================
+author: Joanna Tyszkiewicz Georgescu
+date: May 25, 2019
+autosize: true
+transition-speed: slow
+
+Overview and applicaiton functionality
+========================================================
+This presentation contains documentation for the iris species classification application. 
+
+The functionality of this application is to utilize classification model to predict iris flower species found in the 'iris' data set. To generate the plot user selects two features from the list:
+- Septal Length
+- Septal Width
+- Petal Length
+- Petal Width
+
+Then a plot is generated based on these two inputs.
+
+
+Data set description
+========================================================
+
+This application uses the `iris` data set, which includes three iris species with 50 samples each as well as some properties about each flower. Below is a summary and several head lines of the data.
+
+Attribute Information:
+   1. sepal length (cm)
+   2. sepal width (cm)
+   3. petal length (cm)
+   4. petal width (cm)
+   5. species:  Iris Setosa, Iris Versicolour, Iris Virginica
+      
+Data overview
+========================================================      
+
+
+```{r echo=FALSE}
+library(ggplot2)
+```
+
+
+```{r echo=FALSE}
+summary(iris)
+head(iris)
+```
+
+Source code 
+========================================================
+The application is build using Shiny package and the source code is in 2 files:
+- `ui.R`
+- `server.R`
+
+The Shiny app developed for this assignment is available at: 
+
+The source codes of ui.R and server.R are available on the GitHub repo:
+
+
