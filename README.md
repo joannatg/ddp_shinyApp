@@ -2,7 +2,7 @@
 
 Assignment instructions
 
-1.Shiny Application
+1. Shiny Application
 
 Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
 Deploy the application on Rstudio's shiny server
